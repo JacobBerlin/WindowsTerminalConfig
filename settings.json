@@ -28,6 +28,9 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
+            "fontFace" : "Consolas",
+            "padding":"0",
+            "startingDirectory" : "%USERPROFILE%"
         },
         "list":
         [
@@ -49,18 +52,13 @@
             {
                 "name": "Ubuntu Bash",
                 "source": "Windows.Terminal.Wsl",
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "fontFace":"Consolas",
-                "padding":"0"
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}"
             },
             {
                 "name" : "Git Bash",
                 "commandline" : "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
                 "guid": "{00000000-0000-0000-ba54-000000000002}",
-                "fontFace" : "Consolas",
-                "icon" : "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico",
-                "padding" : "0",
-                "startingDirectory" : "%USERPROFILE%"
+                "icon" : "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico"
             }
         ]
     },
