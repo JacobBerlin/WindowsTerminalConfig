@@ -8,7 +8,7 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
 
-    "defaultProfile": "{00000000-0000-0000-ba54-000000000002}",
+    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
 
     // You can add more global application settings here.
     // To learn more about global settings, visit https://aka.ms/terminal-global-settings
@@ -32,40 +32,35 @@
         "list":
         [
             {
-                // Make changes here to the powershell.exe profile.
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
-                "hidden": false
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}"
             },
             {
-                // Make changes here to the cmd.exe profile.
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "name": "Command Prompt",
                 "commandline": "cmd.exe",
-                "hidden": false
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}"
             },
             {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": false,
                 "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
+                "source": "Windows.Terminal.Azure",
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}"
             },
             {
-                "guid": "{00000000-0000-0000-ba54-000000000002}",
-                "closeOnExit" : true,
-                "commandline" : "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
-                "cursorColor" : "#FFFFFF",
-                "cursorShape" : "bar",
-                "fontFace" : "Consolas",
-                "fontSize" : 12,
-                "historySize" : 9001,
-                "icon" : "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "name": "Ubuntu Bash",
+                "source": "Windows.Terminal.Wsl",
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "fontFace":"Consolas",
+                "padding":"0"
+            },
+            {
                 "name" : "Git Bash",
-                "padding" : "0, 0, 0, 0",
-                "snapOnInput" : true,
-                "startingDirectory" : "%USERPROFILE%",
-                "useAcrylic" : false
+                "commandline" : "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
+                "guid": "{00000000-0000-0000-ba54-000000000002}",
+                "fontFace" : "Consolas",
+                "icon" : "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "padding" : "0",
+                "startingDirectory" : "%USERPROFILE%"
             }
         ]
     },
