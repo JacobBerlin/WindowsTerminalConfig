@@ -8,7 +8,7 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
 
-    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
 
     // You can add more global application settings here.
     // To learn more about global settings, visit https://aka.ms/terminal-global-settings
@@ -28,9 +28,9 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
-            "fontFace" : "Consolas",
+            "fontFace": "Consolas",
             "padding":"0",
-            "startingDirectory" : "%USERPROFILE%"
+            "startingDirectory": "%USERPROFILE%"
         },
         "list":
         [
@@ -55,10 +55,16 @@
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}"
             },
             {
-                "name" : "Git Bash",
-                "commandline" : "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
-                "guid": "{00000000-0000-0000-ba54-000000000002}",
-                "icon" : "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico"
+                "name": "Git Bash",
+                "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
+                "guid": "{d445e8ff-038f-47f0-8630-79c2805ef5eb}",
+                "icon": "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico"
+            },
+            {
+                "name": "VS2019 Command Prompt",
+                "commandline": "%comspec% /k \"%PROGRAMFILES(X86)%\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\Tools\\VsDevCmd.bat\"",
+                "guid": "{69649d36-313e-44c5-a429-2af734813dcf}",
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png"
             }
         ]
     },
@@ -88,7 +94,7 @@
         { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" },
 
         // Add tab open/close shortcuts
-        { "command": "closeTab", "keys" : "ctrl+w" },
-        { "command": "newTab", "keys" : "ctrl+t" }
+        { "command": "closeTab", "keys": "ctrl+w" },
+        { "command": "newTab", "keys": "ctrl+t" }
     ]
 }

@@ -14,13 +14,13 @@ git pull origin master
 ```
 
 ## Additional features :heavy_check_mark:
+* Open Command Prompt by default
 * Copy on mouse select
 * CTRL+T to open a tab
 * CTRL+W to close a tab
-* CTRL+SHIFT+4 to open an Ubuntu Bash shell (default)
-* CTRL+SHIFT+5 to open a Git Bash shell
+* CTRL+SHIFT+4 to open an [Ubuntu Bash](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6) shell (if installed)
+* CTRL+SHIFT+5 to open a [Git Bash](https://git-scm.com) shell (if installed)
+* CTRL+SHIFT+6 to open a [Visual Studio Enterprise 2019](https://visualstudio.microsoft.com/vs/) Developer Command Prompt (if installed)
 
 ## Example :rocket:
-Hint: [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)/WSL and [Git Bash](https://git-scm.com) need to be installed separately.
-
 ![WindowsTerminal](WindowsTerminal.PNG)
