@@ -61,9 +61,21 @@
                 "icon": "%PROGRAMFILES%\\Git\\mingw64\\share\\git\\git-for-windows.ico"
             },
             {
+                "name": "VS2010 Command Prompt",
+                "commandline": "%comspec% /k \"\"%PROGRAMFILES(X86)%\\Microsoft Visual Studio 10.0\\VC\\vcvarsall.bat\"\" x86",
+                "guid": "{00000000-0000-0000-0000-000000002010}",
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png"
+            },
+            {
+                "name": "VS2017 Command Prompt",
+                "commandline": "%comspec% /k \"\"%PROGRAMFILES(X86)%\\Microsoft Visual Studio\\2017\\Enterprise\\Common7\\Tools\\VsDevCmd.bat\"\"",
+                "guid": "{00000000-0000-0000-0000-000000002017}",
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png"
+            },
+            {
                 "name": "VS2019 Command Prompt",
                 "commandline": "%comspec% /k \"%PROGRAMFILES(X86)%\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\Tools\\VsDevCmd.bat\"",
-                "guid": "{69649d36-313e-44c5-a429-2af734813dcf}",
+                "guid": "{00000000-0000-0000-0000-000000002019}",
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png"
             }
         ]
