@@ -11,6 +11,7 @@ move settings.json settings_backup.json
 git init .
 git remote add origin https://github.com/JacobBerlin/WindowsTerminalConfig.git
 git pull origin master
+git branch --set-upstream-to=origin/master master
 ```
 
 ## Additional features :heavy_check_mark:
