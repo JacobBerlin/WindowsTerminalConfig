@@ -5,13 +5,18 @@ Windows Terminal configuration file with a few extra features.
 Start by installing [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701), if you haven't already done so.
 
 To install the updated configuration from a Windows 10 Command Prompt:
-```properties
+```
 cd %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
 move settings.json settings_backup.json
 git init .
 git remote add origin https://github.com/JacobBerlin/WindowsTerminalConfig.git
 git pull origin master
 git branch --set-upstream-to=origin/master master
+```
+To install future updates:
+```
+cd %LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState
+git pull
 ```
 
 ## Additional features :heavy_check_mark:
