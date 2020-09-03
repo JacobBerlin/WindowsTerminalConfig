@@ -77,6 +77,12 @@
                 "commandline": "%comspec% /k \"%PROGRAMFILES(X86)%\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\Tools\\VsDevCmd.bat\"",
                 "guid": "{00000000-0000-0000-0000-000000002019}",
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png"
+            },
+            {
+                "name": "Windows Terminal (elevated)",
+                "commandline": "powershell.exe -command Start-Process -Verb RunAs \"shell:appsFolder\\Microsoft.WindowsTerminal_8wekyb3d8bbwe!App\"",
+                "hidden": false,
+                "icon": "ms-appx:///Images/Square44x44Logo.targetsize-32.png"
             }
         ]
     },
